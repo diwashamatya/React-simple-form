@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ControlledComponent from "./components/ControlledComponent"
+import './App.css'
+import Dropdown from "./components/dropDown"
+import Checkbox from "./components/CheckBox"
+import Multiple from "./components/MultipleForm"
+export default function App() {
+  return <>
+    <div className='App'>
+      <ControlledComponent />
+      <Dropdown></Dropdown>
+      <Checkbox></Checkbox>
+      <Multiple/>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
-  );
+
+  </>
+
 }
 
-export default App;
