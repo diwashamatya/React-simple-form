@@ -7,9 +7,9 @@ export default function App() {
   return <>
     <div className='App'>
       <ControlledComponent />
-      <Dropdown></Dropdown>
-      <Checkbox></Checkbox>
-      <Multiple/>
+     // <Dropdown></Dropdown>
+     // <Checkbox></Checkbox>
+     // <Multiple/>
 
     </div>
 
